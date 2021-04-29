@@ -15,7 +15,7 @@ public class SpringbootDemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootDemoApplication.class, args);
 	}
-
+	
 	@GetMapping
 	public String HelloWorld(){
 		return "Hello World";
