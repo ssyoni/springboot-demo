@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+
 @SpringBootApplication
 public class SpringbootDemoApplication {
 	/* @RestController : @Controller와 @ResponseBody를 합쳐놓은 역할을 수행. 어노테이션을 사용하면 스프링은 반환값이 Response Body 부분에 자동 바인딩 된다. 
